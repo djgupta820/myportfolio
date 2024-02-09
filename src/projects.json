@@ -1,0 +1,76 @@
+{
+    "projects":[
+          {
+            "title": "Online Examination System",
+            "desc": "This project was made as final year assignment in team of three. My role in this project was at backend. Technologies used in this project are HTML, CSS and JavaScript and Bootstrap framework for frontEnd and PHP as backend and MySQL as Database.",
+            "liveAt": "",
+            "liveLink": "",
+            "link": "https://github.com/djgupta820/online-examination",
+            "videoLink": "",
+            "tech": ["Html", "CSS", "JavaScript", "PHP", "MySQL", "Bootstrap"]
+          },
+          {
+            "title": "Foodies",
+            "desc": "A simple food ordering web application where one can be registered as reatiler to sell his/her own product or can be registered as consumer where he/she can order.",
+            "liveAt": "Github Pages",
+            "liveLink": "",
+            "link": "https://github.com/djgupta820/foodies",
+            "videoLink": "",
+            "tech": ["NodeJS", "ExpressJS", "MongoDB", "EJS Templating Engine"]
+          },
+          {
+            "title": "Portfolio",
+            "desc": "This is my Portfolio. Technologies used in this project are HTML, CSS and JavaScript.",
+            "liveAt": "Github Pages",
+            "liveLink": "https://djgupta820.github.io/my-portfolio/",
+            "link": "https://github.com/djgupta820/my-portfolio",
+            "videoLink": "portfolio-video.webm",
+            "tech": ["Html", "CSS", "JavaScript"]
+          },
+          {
+            "title": "Markdown Bolg",
+            "desc": "I made this project when I learnt MERN Stack. The User need to register to write a blog. The blog can be written or edited as markdown text with full markdown support.",
+            "liveAt": "",
+            "liveLink": "",
+            "link": "https://github.com/djgupta820/markdown-blog",
+            "videoLink": "",
+            "tech": ["NodeJS", "ExpressJS", "MongoDB", "ReactJS"]
+          },
+          {
+            "title": "Coffee",
+            "desc": "This is a coffee website. I made this project to practice some advance features of CSS and JS like Navigation Bar and media queries.",
+            "liveAt": "Github Pages",
+            "liveLink": "djgupta820.github.io/coffee",
+            "link": "https://github.com/djgupta820/coffee",
+            "videoLink": "coffee.mp4",
+            "tech": ["Html", "CSS", "JavaScript"]
+          },
+          {
+            "title": "Weather App",
+            "desc": "This is a small weather application which tell the weather report by name. Technologies used in this aplication are HTML, CSS and JavaScript. I made this project to learn API calls and DOM manipulation in JS. Open weather API is used in this project",
+            "liveAt": "Github Pages",
+            "liveLink": "https://djgupta820.github.io/weather-app/",
+            "link": "https://github.com/djgupta820/weather-app",
+            "videoLink": "weather-app.mp4",
+            "tech": ["Html", "CSS", "JavaScript"]
+        },
+          {
+            "title": "Tic-Tak-Toe Game",
+            "desc": "This is a simple game Tic-Tac-Toe. I made this project to learn DOM manipulation and some dynamic behaviour of JS.",
+            "liveAt": "Github Pages",
+            "liveLink": "https://djgupta820.github.io/Tic-Tac-Toe/",
+            "link": "https://github.com/djgupta820/Tic-Tac-Toe",
+            "videoLink": "tictaktoe.mp4",
+            "tech": ["Html", "CSS", "JavaScript"]
+          },
+          {
+            "title": "Bolg Site",
+            "desc": "I made this project when I learnt flask framework of python. Technologies used in this project are HTML, CSS and JavaScript and Bootstrap framework for frontEnd and Python as backend and MySQL as Database.",
+            "liveAt": "",
+            "liveLink": "",
+            "link": "https://github.com/djgupta820/myblogs",
+            "videoLink": "",
+            "tech": ["Python - Flask", "Html", "CSS", "JavaScript", "Jinja2 Templating Engine"]
+          }
+    ]
+}

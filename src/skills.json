@@ -1,0 +1,73 @@
+{
+    "skills":[
+        {
+            "name": "html5",
+            "proficiency": 9,
+            "icon": "faHtml5"
+        },
+        {
+            "name": "css3",
+            "proficiency": 7
+        },
+        {
+            "name": "javascript",
+            "proficiency": 8
+        },
+        {
+            "name": "typescript",
+            "proficiency": 8
+        },
+        {
+            "name": "c/c++",
+            "proficiency": 8
+        },
+        {
+            "name": "java",
+            "proficiency": 7
+        },
+        {
+            "name": "python",
+            "proficiency": 6
+        },
+        {
+            "name": "flask",
+            "proficiency": 7
+        },
+        {
+            "name": "django",
+            "proficiency": 8
+        },
+        {
+            "name": "mysql",
+            "proficiency": 8
+        },
+        {
+            "name": "react.js",
+            "proficiency": 8
+        },
+        {
+            "name": "node.js",
+            "proficiency": 6
+        },
+        {
+            "name": "express.js",
+            "proficiency": 8
+        },
+        {
+            "name": "mongodb",
+            "proficiency": 8
+        },
+        {
+            "name": "angular.js",
+            "proficiency": 5
+        },
+        {
+            "name": "Data Structures & algorithms using C++",
+            "proficiency": 6
+        },
+        {
+            "name": "full stack web development",
+            "proficiency": 8
+        }
+    ]
+}
