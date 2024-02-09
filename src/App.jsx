@@ -11,7 +11,7 @@ import Resume from "./components/Resume/Resume";
 import NotFound from "./NotFound";
 
 function App() {
-  document.title = "Resume";
+  document.title = "Dheeraj Gupta - Resume";
   return (
     <>
       <Navbar />

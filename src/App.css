@@ -65,6 +65,7 @@
   min-height: 92.1vh;
   background-color: var(--dark-1);
   color: var(--light);
+  padding-bottom: .5em;
 }
 .container > h1{
   margin-bottom: .5em;
