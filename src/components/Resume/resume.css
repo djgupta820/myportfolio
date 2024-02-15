@@ -15,6 +15,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 .top-left .name {
   font-size: 3em;
@@ -47,13 +49,20 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 1em;
 }
 .data-box .rproject {
   width: 30%;
   min-width: 200px;
+  border: 1px solid var(--sp-col);
+  text-align: center;
+  padding: .2em;
 }
 .rproject h4 {
   text-align: center;
+}
+.rproject ul li{
+  list-style-type: none;
 }
 .rproject .tech {
   text-align: center;
@@ -125,3 +134,20 @@
     border-radius: 50%;
   }
 /* Theme switch ends */
+
+/* media query */
+@media all and (width < 650px){
+  .resume{
+    width: 98%;
+  }
+}
+@media all and (width < 550px){
+  .rpeojects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .rproject{
+    width: 100% !important;
+  }
+}
