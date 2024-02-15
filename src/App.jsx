@@ -9,7 +9,6 @@ import Video from "./components/Projects/Video";
 import Contact from "./components/Contact/Contact";
 import Resume from "./components/Resume/Resume";
 import NotFound from "./NotFound";
-import HomeTest from "./components/Home/HomeTest";
 
 function App() {
   document.title = "Dheeraj Gupta - Resume";
@@ -24,7 +23,6 @@ function App() {
         <Route path="/video/:vidname" element={<Video />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
-        <Route path="/home-test" element={<HomeTest />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
