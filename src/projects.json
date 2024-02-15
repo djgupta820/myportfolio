@@ -20,12 +20,12 @@
           },
           {
             "title": "Portfolio",
-            "desc": "This is my Portfolio. Technologies used in this project are HTML, CSS and JavaScript.",
-            "liveAt": "Github Pages",
-            "liveLink": "https://djgupta820.github.io/my-portfolio/",
-            "link": "https://github.com/djgupta820/my-portfolio",
-            "videoLink": "portfolio-video.webm",
-            "tech": ["Html", "CSS", "JavaScript"]
+            "desc": "This is my Portfolio. This project is built on ReactJS to showcase my reactjs skills.",
+            "liveAt": "Netlify",
+            "liveLink": "https://djgupta.netlify.app/",
+            "link": "https://github.com/djgupta820/myportfolio",
+            "videoLink": "",
+            "tech": ["Html", "CSS", "ReactJS"]
           },
           {
             "title": "Markdown Bolg",

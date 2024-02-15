@@ -47,6 +47,7 @@ const Contact = () => {
         </div>
         <button>Submit</button>
       </form>
+      <h3 style={{color: "red", textAlign: "center", marginTop: "1em"}}>*Form is not working currently!</h3>
     </div>
   );
 };

@@ -10,7 +10,7 @@ const Resume = () => {
           <div className="top-left">
             <div className="name">Dheeraj Gupta</div>
             <div className="links">
-              <a href="https://linkedin.com/in" target="_blank">
+              <a href="https://www.linkedin.com/in/dheeraj-gupta-40b846196/" target="_blank">
                 Linkedin
               </a>{" "}
               |
@@ -50,21 +50,23 @@ const Resume = () => {
         <div className="data-box">
           <h1>Technical Skills</h1>
           <div className="rskills">
-            <div className="heads">
-              <p>Languages:</p>
-              <p>Frameworks:</p>
-              <p>Databases:</p>
-              <p>Tools:</p>
-              <p>Others:</p>
-            </div>
-            {/* <div className="skill-data"></div> */}
-            <div className="skill-data">
-              <p>JavaScript, Python, Java, HTML, CSS, PHP, C/C++</p>
-              <p>Bootstrap, Express.JS, Angular</p>
-              <p>MySQL, MongoDB</p>
-              <p>Visual Studio Code, Git, GitHub, NodeJS</p>
-              <p>Data Structures and Algorithms using C++, ReactJS</p>
-            </div>
+            <p>
+              Languages:{" "}
+              <span>JavaScript, Python, Java, HTML, CSS, PHP, C/C++</span>
+            </p>
+            <p>
+              Frameworks: <span>Bootstrap, Express.JS, Angular</span>
+            </p>
+            <p>
+              Databases: <span>MySQL, MongoDB</span>
+            </p>
+            <p>
+              Tools: <span>Visual Studio Code, Git, GitHub, NodeJS</span>
+            </p>
+            <p>
+              Others:{" "}
+              <span>Data Structures and Algorithms using C++, ReactJS</span>
+            </p>
           </div>
         </div>
 
