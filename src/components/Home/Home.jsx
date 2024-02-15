@@ -1,18 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub, faFacebook, faInstagram, faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Home = () => {
   return (
     <div className="container">
       <div className="image">
         <div className="h-img">
+          <img src="/splash.png" alt="splash" className="splash" />
           <img src="/image.png" alt="profile" />
         </div>
         <div className="img-txt">
-          <h1>Full Stack Developer</h1>
           <h1>Hi I'm Dheeraj Gupta</h1>
+          <h1>I'm Full Stack Developer</h1>
         </div>
         <div className="social-links">
           <a href="https://github.com/djgupta820" title="Github">
@@ -39,15 +40,6 @@ const Home = () => {
               />
             </svg>
           </a>
-
-          <a href="https://www.facebook.com/guptadheeraj830">
-            <FontAwesomeIcon icon={faFacebook} />
-          </a>
-
-          <a href="https://www.instagram.com/its__dj_/">
-            <FontAwesomeIcon icon={faInstagramSquare} />
-          </a>
-
         </div>
         <div className="btns">
           <a href="/Full_Stack_Dheeraj" download>

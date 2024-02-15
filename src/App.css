@@ -136,25 +136,21 @@ body {
   justify-content: end;
   gap: 1em;
 }
-.image .h-img{
+.splash{
+  position: absolute;
+  max-width: 400px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.h-img{
   width: 100%;
   max-width: 500px;
-  background-image: url('/splash.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  position: relative;
   border: 1px solid var(--sp-col);
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 50%;
   overflow: hidden;
 }
-.image .h-img:hover{
-  transition: all 0.5s ease;
-  border-top-left-radius: 0%;
-  border-bottom-right-radius: 0%;
-}
-
-.image .h-img > img {
+.h-img > img {
   max-width: 500px;
   width: 100%;
   padding: 0.5em;
@@ -164,9 +160,9 @@ body {
   color: goldenrod;
 }
 .social-links {
-  width: 30%;
-  display: flex;
-  align-items: center;
+  width: 50%;
+  display: flexbox;
+  column-count: 3;
   justify-content: space-around;
   margin-bottom: 1em;
 }
@@ -446,6 +442,9 @@ textarea {
 
 @media all and (width < 500px) {
   .mainMenu {
+    width: 100%;
+  }
+  .social-links{
     width: 100%;
   }
 }
