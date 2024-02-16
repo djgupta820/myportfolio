@@ -4,6 +4,16 @@
   --sp-col: rgb(10, 138, 212);
   --dark-1: rgb(32, 31, 31);
 }
+body::-webkit-scrollbar{
+  width: 10px;
+}
+body::-webkit-scrollbar-track{
+  background: var(--dark-1);
+}
+body::-webkit-scrollbar-thumb{
+  background-color: var(--sp-col);
+  border: 1px solid var(--light);
+}
 body {
   background-color: var(--dark-1);
   width: 100%;
