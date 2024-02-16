@@ -68,18 +68,19 @@ body {
   text-decoration: none;
   color: var(--light);
   font-weight: bold;
+  transition: all .3s ease;
 }
-
 .mainMenu a:hover {
-  transition: 400ms;
-  padding-bottom: 0.5em;
+  padding: 0.3em 0;
   color: var(--sp-col);
   border-bottom: 1px solid var(--sp-col);
+  border-top: 1px solid var(--sp-col);
 }
 .active {
   color: var(--sp-col) !important;
   border-bottom: 1px solid var(--sp-col);
-  padding-bottom: 0.5em;
+  border-top: 1px solid var(--sp-col);
+  padding: 0.3em 0;
 }
 .nav-social{
   width: 100%;
@@ -159,7 +160,12 @@ body {
   position: relative;
   border: 1px solid var(--sp-col);
   overflow: hidden;
+  transition: all 1s ease;
 }
+.h-img:hover{
+  border-radius: 100px;
+}
+
 .h-img > img {
   max-width: 500px;
   width: 100%;

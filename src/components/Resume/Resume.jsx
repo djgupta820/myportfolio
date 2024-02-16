@@ -205,6 +205,7 @@ const Resume = () => {
           <p>Web Development in Django</p>
         </div>
       </div>
+      <h3 className="warn">*Use screen size greater than 650px for best view</h3>
     </div>
   );
 };
