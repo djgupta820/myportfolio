@@ -13,6 +13,7 @@ body::-webkit-scrollbar-track{
 body::-webkit-scrollbar-thumb{
   background-color: var(--sp-col);
   border: 1px solid var(--light);
+  border-radius: 8px;
 }
 body {
   background-color: var(--dark-1);
@@ -174,6 +175,7 @@ body {
 }
 .image h1 {
   color: goldenrod;
+  text-align: center;
 }
 .social-links {
   width: 50%;
