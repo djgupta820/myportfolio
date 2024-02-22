@@ -342,7 +342,7 @@ body {
   width: 20%;
   min-width: 200px;
   border: 1px solid var(--sp-col);
-  display: flex;
+  display: flex auto;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
@@ -350,6 +350,11 @@ body {
   padding: 0.5em;
   text-transform: uppercase;
   text-align: center;
+  transition: all .3s ease;
+}
+.skill:hover{
+  box-shadow: 1px 1px 10px 1px var(--sp-col);
+  transform: translate(0px, -10px);
 }
 .skill h3 {
   margin-bottom: 0.6em;
