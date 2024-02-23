@@ -1,6 +1,5 @@
 import "./App.css";
 import About from "./components/About/About";
-import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Projects from "./components/Projects/Projects";
@@ -9,6 +8,7 @@ import Video from "./components/Projects/Video";
 import Contact from "./components/Contact/Contact";
 import Resume from "./components/Resume/Resume";
 import NotFound from "./NotFound";
+import NewHome from "./components/Home/NewHome";
 
 function App() {
   document.title = "Dheeraj Gupta - Resume";
@@ -16,7 +16,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" exac={true} element={<Home />} />
+        <Route path="/" exac={true} element={<NewHome />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
