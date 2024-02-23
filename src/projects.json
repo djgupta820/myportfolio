@@ -25,7 +25,7 @@
             "liveLink": "https://djgupta.netlify.app/",
             "link": "https://github.com/djgupta820/myportfolio",
             "videoLink": "",
-            "tech": ["Html", "CSS", "ReactJS"]
+            "tech": ["Html", "CSS", "Javascript","JSON", "ReactJS"]
           },
           {
             "title": "Markdown Bolg",
@@ -33,7 +33,7 @@
             "liveAt": "",
             "liveLink": "",
             "link": "https://github.com/djgupta820/markdown-blog",
-            "videoLink": "",
+            "videoLink": "blogz.mp4",
             "tech": ["NodeJS", "ExpressJS", "MongoDB", "ReactJS"]
           },
           {

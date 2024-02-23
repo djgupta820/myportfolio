@@ -18,8 +18,8 @@ const About = () => {
             scalable web applications.
           </p>
           <p>
-            Currently I'm an intern at wipro technologies and took trainings on
-            various technologies.
+            <b>Currently I'm an intern at wipro technologies and took trainings on
+            various technologies.</b>
           </p>
           <p> My strengths include: </p>
           <ul>

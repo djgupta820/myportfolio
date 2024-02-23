@@ -560,3 +560,8 @@ textarea {
     min-width: 100%;
   }
 }
+@media all and (width < 1050px){
+  .newhome .img{
+    position: static;
+  }
+}
