@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { ReactTyped } from "react-typed";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {faClock} from "@fortawesome/free-regular-svg-icons"
+import Clock from "../Clock/Clock";
 
 const NewHome = () => {
+  const [vclock, setVClock] = useState(true)
+
+  const toggleClock = ()=>{
+    setVClock(!vclock)
+  }
+
   return (
     <div className="newhome">
+      {
+        vclock?<Clock toggle={toggleClock} />:<FontAwesomeIcon icon={faClock} onClick={()=> toggleClock()} className="_clock" />
+      }
       <div className="img">
         <img src="/image.png" alt="profile-image" />
       </div>

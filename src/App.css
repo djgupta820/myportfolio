@@ -433,7 +433,6 @@ textarea {
   }
 }
 
-/* new home */
 .newhome {
   width: 100%;
   min-height: 100vh;
@@ -462,7 +461,6 @@ textarea {
   position: absolute;
   right: 2em;
   top: 5em;
-  /* animation: bounce 2s infinite ease-in; */
 }
 
 .newhome .img:hover {
@@ -476,9 +474,57 @@ textarea {
 .newhome .img img {
   width: 100%;
 }
-
-/* new home end */
-/* media query */
+.clock{
+  width: fit-content;
+  padding: .4em 1em;
+  border-radius: 8px;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  background: linear-gradient(to right top, #191714, #2234AE);
+}
+/* 003049 264653 03045e 03045e */
+.clock .close{
+  border: 1px solid white;
+  font-size: 1em;
+  padding: .2em .3em;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+  color: var(--dark-1);
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  font-weight: bolder;
+  transition: all .5s ease;
+}
+.clock .close:hover{
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+.clock #time{
+  font-size: 1.5em;
+  color: var(--sp-col);
+  font-weight: bolder;
+}
+._clock{
+  width: fit-content;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 2em;
+  margin: .3em;
+  cursor: pointer;
+  background-color: var(--dark-1);
+  transition: all .2s ease;
+}
+._clock:hover{
+  color: var(--sp-col);
+  padding: .3em;
+}
 @media all and (width < 650px) {
   .mainMenu {
     position: fixed;
