@@ -6,7 +6,7 @@ const Project = (props) => {
     <div className="project">
       <h2>{props.data.title}</h2>
       <p>{props.data.desc}</p>
-      {props.data.liveLink ? (
+      {props.data.liveAt ? (
         <p style={{ color: "green" }}>
           <b>
             This project is live at{" "}

@@ -3,6 +3,7 @@
   --light: rgb(201, 191, 191);
   --sp-col: rgb(10, 138, 212);
   --dark-1: rgb(32, 31, 31);
+  --dark-2: #2c2955;
 }
 body::-webkit-scrollbar {
   width: 10px;
@@ -308,7 +309,7 @@ body {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  border: 1px solid var(--sp-col);
+  /* border: 1px solid var(--sp-col); */
   border-radius: 8px;
   padding: 0.5em;
 }
@@ -323,11 +324,14 @@ body {
   flex-direction: column;
   gap: 0.5em;
   text-align: center;
+  background-color: var(--dark-2);
+  box-shadow: 1px 1px 5px 2px var(--dark-2);
+  transition: all 1s ease;
 }
 .project:hover {
-  transition: 100ms;
-  box-shadow: 1px 1px 10px 4px var(--sp-col) inset,
-    1px 1px 10px 4px var(--sp-col);
+  /* 1px 1px 10px 4px var(--sp-col) inset, */
+  box-shadow: 1px 1px 10px 4px var(--sp-col);
+  transform: translateY(-10px);
 }
 .project h2 {
   text-align: center;
@@ -474,20 +478,20 @@ textarea {
 .newhome .img img {
   width: 100%;
 }
-.clock{
+.clock {
   width: fit-content;
-  padding: .4em 1em;
+  padding: 0.4em 1em;
   border-radius: 8px;
   position: absolute;
   right: 15px;
   bottom: 10px;
-  background: linear-gradient(to right top, #191714, #2234AE);
+  background: linear-gradient(to right top, #191714, #2234ae);
 }
 /* 003049 264653 03045e 03045e */
-.clock .close{
+.clock .close {
   border: 1px solid white;
   font-size: 1em;
-  padding: .2em .3em;
+  padding: 0.2em 0.3em;
   border-radius: 50%;
   cursor: pointer;
   background-color: white;
@@ -496,19 +500,19 @@ textarea {
   right: -10px;
   top: -10px;
   font-weight: bolder;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
-.clock .close:hover{
+.clock .close:hover {
   background-color: red;
   border-color: red;
   color: white;
 }
-.clock #time{
+.clock #time {
   font-size: 1.5em;
   color: var(--sp-col);
   font-weight: bolder;
 }
-._clock{
+._clock {
   width: fit-content;
   border: 1px solid white;
   border-radius: 50%;
@@ -516,14 +520,14 @@ textarea {
   right: 10px;
   bottom: 10px;
   font-size: 2em;
-  margin: .3em;
+  margin: 0.3em;
   cursor: pointer;
   background-color: var(--dark-1);
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
-._clock:hover{
+._clock:hover {
   color: var(--sp-col);
-  padding: .3em;
+  padding: 0.3em;
 }
 @media all and (width < 650px) {
   .mainMenu {
@@ -559,7 +563,7 @@ textarea {
   .nav-social {
     display: flex;
   }
-  .newhome .img{
+  .newhome .img {
     position: static;
   }
 }
@@ -606,8 +610,8 @@ textarea {
     min-width: 100%;
   }
 }
-@media all and (width < 1050px){
-  .newhome .img{
+@media all and (width < 1050px) {
+  .newhome .img {
     position: static;
   }
 }
