@@ -239,8 +239,10 @@ body {
 }
 
 .btns {
+  width: 100%;
   display: inline-block;
   margin-bottom: 2em;
+  text-align: center;
 }
 .btns a {
   text-decoration: none;
@@ -274,7 +276,16 @@ body {
   width: 100%;
   display: flex;
 }
-
+.ball{
+  width: 100vw;
+  max-width: 110vh;
+  height: 110vh;
+  border-radius: 50%;
+  position: absolute;
+  left: 70%;
+  background-color: var(--dark-2);
+  z-index: 0;
+}
 .about .img,
 .data {
   width: 50%;
@@ -487,7 +498,6 @@ textarea {
   bottom: 10px;
   background: linear-gradient(to right top, #191714, #2234ae);
 }
-/* 003049 264653 03045e 03045e */
 .clock .close {
   border: 1px solid white;
   font-size: 1em;
@@ -528,6 +538,24 @@ textarea {
 ._clock:hover {
   color: var(--sp-col);
   padding: 0.3em;
+}
+.edu{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding: .5em 1em;
+}
+.estyle{
+  background-color: var(--sp-col);
+  color: var(--dark-1);
+  border-radius: 4px;
+  padding: .5em;
+  transition: .2s;
+  margin: .3em;
+}
+.estyle:hover{
+  box-shadow: .1em .1em 1.3em .1em var(--light);
 }
 @media all and (width < 650px) {
   .mainMenu {
