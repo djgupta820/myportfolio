@@ -6,7 +6,7 @@ const About = () => {
       <h1 style={{ textAlign: "center" }}>About Me :)</h1>
       <div className="about">
         <div className="img">
-          <img src="/image.png" alt="image" />
+          <img src="/dheeraj.png" alt="image" />
         </div>
         <div className="data">
           <h1>Full Stack Developer</h1>

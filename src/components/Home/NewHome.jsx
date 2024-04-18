@@ -25,7 +25,7 @@ const NewHome = () => {
         />
       )}
       <div className="img">
-        <img src="/image.png" alt="profile-image" />
+        <img src="/dheeraj.png" alt="profile-image" />
       </div>
       <h1>
         <ReactTyped
