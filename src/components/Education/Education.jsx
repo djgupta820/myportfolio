@@ -1,5 +1,5 @@
 import React from "react";
-import School from "./school";
+import School from "./School";
 import Certificate from "./Certificate";
 
 const Education = () => {
