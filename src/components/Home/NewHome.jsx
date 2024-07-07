@@ -52,7 +52,7 @@ const NewHome = () => {
         </a>
       </div>
       <div className="btns">
-        <a href="/Full_Stack_Dheeraj" download>
+        <a href="/Dheeraj_Gupta_Full_Stack_Developer.pdf" download>
           Download Resume
         </a>
         <Link to="/contact">Hire Me</Link>
