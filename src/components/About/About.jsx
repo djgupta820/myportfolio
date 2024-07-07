@@ -18,12 +18,12 @@ const About = () => {
             scalable web applications.
           </p>
           <p>
-            <b>Currently I'm an intern at wipro technologies and took trainings on
+            <b>Currently I'm working at wipro Ltd. and took trainings and experience on
             various technologies.</b>
           </p>
           <p> My strengths include: </p>
           <ul>
-            <li> Proficiency in HTML, CSS, JavaScript, MySQL and C++. </li>
+            <li> Proficiency in MEAN/MERN Stack, Java, Spring Boot, Data Structures and Algorithms. </li>
             <li>
               Experience with responsive design and cross-browser compatibility.
             </li>

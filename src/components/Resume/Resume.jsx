@@ -10,7 +10,10 @@ const Resume = () => {
           <div className="top-left">
             <div className="name">Dheeraj Gupta</div>
             <div className="links">
-              <a href="https://www.linkedin.com/in/dheeraj-gupta-40b846196/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/dheeraj-gupta-40b846196/"
+                target="_blank"
+              >
                 Linkedin
               </a>{" "}
               |
@@ -40,10 +43,11 @@ const Resume = () => {
         <div className="data-box">
           <h1>Objective</h1>
           <p>
-            A motivated individual with in-depth knowledge of languages and
-            development tools, seeking a position in a growthoriented company
-            where I can use my skills to the advantage of the company while
-            having the scope to develop my own skills.
+            A dedicated and results-driven Full Stack Developer with a passion
+            for creating dynamic and efficient web applications. Seeking to
+            contribute my skills and experience to innovative projects within a
+            forward-thinking organization, driving growth and delivering
+            impactful solutions.
           </p>
         </div>
 
@@ -82,12 +86,28 @@ const Resume = () => {
           </div>
           <div className="trainings">
             <ul>
-              <li>Trained in Java J2EE, Node.JS, AngularJS, ReactJS</li>
               <li>
-                Trained in design and development of websites using HTML, CSS,
-                and JavaScript
+                Developed and maintained web applications using NodeJS,
+                ExpressJS, MySQL, and ReactJS.
               </li>
-              <li>Worked on Angular, Express, MySQL, API, ReactJS</li>
+              <li>
+                Designed and implemented dynamic user interfaces and responsive
+                web applications.
+              </li>
+              <li>
+                Implemented robust backend services with Node.js and Express.js,
+                integrating with MySQL databases to handle complex data
+                operations and API management.
+              </li>
+              <li>
+                Collaborated with cross-functional teams to deliver robust and
+                scalable web solutions.
+              </li>
+              <li>
+                Completed extensive training in Java J2EE, Spring boot, Node.js,
+                AngularJS, and ReactJS, enhancing my capabilities to manage both
+                front-end and back-end development tasks effectively.
+              </li>
             </ul>
           </div>
         </div>
@@ -104,12 +124,28 @@ const Resume = () => {
             </p>
             <p>Aug 2019 – July 2022</p>
           </div>
+          <div style={{marginLeft: "1.2em", marginTop:"1em"}}>
+            <ul>
+              <li>
+                {" "}
+                <b>Relevant Coursework:</b> Web Development, Data Structures,
+                Database Management Systems.
+              </li>
+              <li>
+                {" "}
+                <b>Academic Projects:</b> Developed a comprehensive online
+                examination platform as part of a team project during my final
+                year.
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div className="data-box">
           <h1>Coding Profile</h1>
           <p>
-            Solved 300+ questions on Leetcode and Coding Block (DSA using C++)
+            Solved 300+ coding problems on Leetcode, focusing on advanced data
+            structures and algorithms.
           </p>
         </div>
 
@@ -118,17 +154,14 @@ const Resume = () => {
           <div className="rprojects">
             <div className="rproject">
               <h4>
-                <a
-                  href="https://djgupta820.github.io/my-portfolio/"
-                  target="_blank"
-                >
+                <a href="https://djgupta.netlify.app" target="_blank">
                   Portfolio
                 </a>
               </h4>
-              <div className="tech">HTML, CSS and JavaScript</div>
+              <div className="tech">ReactJS</div>
               <h4>
                 <a
-                  href="https://github.com/djgupta820/my-portfolio"
+                  href="https://github.com/djgupta820/myportfolio"
                   target="_blank"
                 >
                   Source Code
@@ -136,12 +169,18 @@ const Resume = () => {
               </h4>
               <div className="p-data">
                 <ul>
-                  <li>Optimized website for speed and user experience</li>
                   <li>
-                    Utilized responsive design to ensure compatibility across
-                    all devices.
+                    Developed a personal portfolio website optimized for
+                    performance and user experience.
                   </li>
-                  <li>Deployed on GitHub pages via GitHub Actions.</li>
+                  <li>
+                    Implemented responsive design techniques to ensure
+                    compatibility across various devices.
+                  </li>
+                  <li>
+                    Deployed the website using Netlify and managed version
+                    control with Git.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -160,10 +199,22 @@ const Resume = () => {
               </h4>
               <div className="p-data">
                 <ul>
-                  <li>A CRUD application</li>
-                  <li>Exposed POST, GET methods using PHP.</li>
-                  <li>A Team Project of Three</li>
-                  <li>My role was at Backend and little bit in Frontend.</li>
+                  <li>
+                    Collaborated in a team of three to develop a CRUD
+                    application for managing online exams.
+                  </li>
+                  <li>
+                    Developed backend logic using PHP and integrated MySQL for
+                    database management.
+                  </li>
+                  <li>
+                    Contributed to frontend development, ensuring a seamless
+                    user interface for exam participants.
+                  </li>
+                  <li>
+                    A CRUD Application with exposed GET, POST, UPDATE and DELETE
+                    methods.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -182,7 +233,14 @@ const Resume = () => {
                 <ul>
                   <li>A CRUD application</li>
                   <li>Exposed POST, GET, PUT and Delete methods.</li>
-                  <li>Users can register as Consumer or seller.</li>
+                  <li>
+                    Built a full-stack application allowing users to register
+                    and order food as consumers or sellers.
+                  </li>
+                  <li>
+                    Implemented RESTful APIs for handling CRUD operations with
+                    MongoDB as the data store.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -205,7 +263,9 @@ const Resume = () => {
           <p>Web Development in Django</p>
         </div>
       </div>
-      <h3 className="warn">*Use screen size greater than 650px for best view</h3>
+      <h3 className="warn">
+        *Use screen size greater than 650px for best view
+      </h3>
     </div>
   );
 };

@@ -55,7 +55,7 @@ const NewHome = () => {
         <a href="/Full_Stack_Dheeraj" download>
           Download Resume
         </a>
-        <Link to="/contact">Contact</Link>
+        <Link to="/contact">Hire Me</Link>
       </div>
     </div>
   );
