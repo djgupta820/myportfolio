@@ -46,7 +46,7 @@ body {
   z-index: 1;
 }
 .logo {
-  font-size: 2em;
+  font-size: 1.7em;
   color: var(--sp-col);
   font-weight: bolder;
   cursor: pointer;

@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <div className="logo">DJ</div>
+        <div className="logo">DHEERAJ GUPTA</div>
         <label className="openMenu" htmlFor="menu">
           <FontAwesomeIcon icon={faBars} />
         </label>
