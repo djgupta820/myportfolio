@@ -3,18 +3,60 @@ import { ReactTyped } from "react-typed";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faVolumeMute, faVolumeHigh } from "@fortawesome/free-solid-svg-icons";
 
 const NewHome = () => {
+  const [play, setPlay] = useState(false);
+  const audio = new Audio("/background-music.mp3");
+  audio.volume = 0.05;
 
   useEffect(() => {
-    const audio = new Audio("/background-music.mp3");
-    audio.volume = 0.05;
-    audio.play();
-  }, []);
+    if (play) 
+      audio.play();
+    else {
+      audio.pause();
+      audio.currentTime = 0;
+    }
+
+    return () =>{
+      audio.pause();
+      audio.currentTime = 0;
+    }
+  }, [play]);
+
+  const handleBackgroundMusic = () => {
+    if (!play) {
+      audio.play();
+    } else {
+      audio.pause();
+      audio.currentTime = 0;
+    }
+  };
+
+  const handleBackgroundMusicClick = () => {
+    console.log("handle clicked");
+    handleBackgroundMusic();
+    setPlay(!play);
+  };
 
   return (
     <div className="newhome">
-      
+      {
+        play ?
+          <FontAwesomeIcon
+            icon={faVolumeMute}
+            className="volume"
+            title="Mute"
+            onClick={() => handleBackgroundMusicClick()}
+          />
+      :
+        <FontAwesomeIcon
+          icon={faVolumeHigh}
+          className="volume"
+          title="Unmute"
+          onClick={() => handleBackgroundMusicClick()}
+        />
+      }
       <div className="img">
         <img src="/dheeraj.png" alt="profile-image" />
       </div>
