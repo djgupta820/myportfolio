@@ -1,54 +1,66 @@
 import React from "react";
 import "../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes, faTerminal } from "@fortawesome/free-solid-svg-icons";
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { Outlet, NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const closeMenu = () => {
+    const menuCheckbox = document.getElementById('menu');
+    if (menuCheckbox) {
+      menuCheckbox.checked = false;
+    }
+  };
+
   return (
     <>
       <div className="navbar">
-        <div className="logo">DHEERAJ GUPTA</div>
+        <div className="logo">
+          <FontAwesomeIcon icon={faTerminal} className="logo-icon" />
+          <span>DHEERAJ GUPTA</span>
+        </div>
         <label className="openMenu" htmlFor="menu">
           <FontAwesomeIcon icon={faBars} />
         </label>
         <input type="checkbox" name="menu" id="menu" />
         <div className="mainMenu">
-          <NavLink activeClassName="active" to="/">
+          <NavLink activeClassName="active" to="/" onClick={closeMenu}>
             Home
           </NavLink>
-          <NavLink activeClassName="active" to="/about">
+          <NavLink activeClassName="active" to="/about" onClick={closeMenu}>
             About
           </NavLink>
-          <NavLink activeClassName="active" to="/education">
+          <NavLink activeClassName="active" to="/education" onClick={closeMenu}>
             Education
           </NavLink>
-          <NavLink activeClassName="active" to="/resume">
+          <NavLink activeClassName="active" to="/resume" onClick={closeMenu}>
             Resume
           </NavLink>
-          <NavLink activeClassName="active" to="/skills">
+          <NavLink activeClassName="active" to="/skills" onClick={closeMenu}>
             Skills
           </NavLink>
-          <NavLink activeClassName="active" to="/projects">
+          <NavLink activeClassName="active" to="/projects" onClick={closeMenu}>
             Projects
           </NavLink>
-          <NavLink activeClassName="active" to="/contact">
+          <NavLink activeClassName="active" to="/contact" onClick={closeMenu}>
             Contact
           </NavLink>
           <div className="nav-social">
-            <a href="https://github.com/djgupta820" title="Github">
+            <a href="https://github.com/djgupta820" title="Github" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
 
             <a
               href="https://www.linkedin.com/in/dheeraj-gupta-40b846196/"
               title="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
 
-            <a href="https://leetcode.com/djgupta2000" title="Leetcode">
+            <a href="https://leetcode.com/djgupta2000" title="Leetcode" target="_blank" rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
