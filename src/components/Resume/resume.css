@@ -178,6 +178,57 @@
   margin: 0 0 var(--space-2) 0;
 }
 
+.skill-category {
+  margin-bottom: var(--space-4);
+}
+
+.category-label {
+  display: block;
+  font-weight: 600;
+  color: #10b981;
+  margin-bottom: var(--space-3);
+  font-size: var(--font-base);
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: var(--space-2) var(--space-4);
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(10, 138, 212, 0.1));
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-radius: 20px;
+  color: #e0e0e0;
+  font-size: var(--font-sm);
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.skill-tag:hover {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(10, 138, 212, 0.2));
+  border-color: rgba(16, 185, 129, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(16, 185, 129, 0.2);
+}
+
+.experience-divider {
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent, 
+    rgba(10, 138, 212, 0.3) 20%, 
+    rgba(16, 185, 129, 0.3) 50%, 
+    rgba(10, 138, 212, 0.3) 80%, 
+    transparent
+  );
+  margin: var(--space-6) 0;
+  opacity: 0.5;
+}
+
 .data-box h1 {
   width: 100%;
   color: var(--sp-col);

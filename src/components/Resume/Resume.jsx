@@ -59,23 +59,49 @@ const Resume = () => {
           <h2>Skills</h2>
           <div className="terminal-section">
           <div className="rskills">
-            <p>
-              Languages:{" "}
-              <span>JavaScript, Python, Java, HTML, CSS, PHP, C/C++</span>
-            </p>
-            <p>
-              Frameworks: <span>Bootstrap, Express.JS, Angular</span>
-            </p>
-            <p>
-              Databases: <span>MySQL, MongoDB</span>
-            </p>
-            <p>
-              Tools: <span>Visual Studio Code, Git, GitHub, NodeJS</span>
-            </p>
-            <p>
-              Others:{" "}
-              <span>Data Structures and Algorithms using C++, ReactJS</span>
-            </p>
+            <div className="skill-category">
+              <span className="category-label">Languages:</span>
+              <div className="skill-tags">
+                <span className="skill-tag">JavaScript</span>
+                <span className="skill-tag">Python</span>
+                <span className="skill-tag">HTML</span>
+                <span className="skill-tag">CSS</span>
+                <span className="skill-tag">C/C++</span>
+                <span className="skill-tag">PowerShell</span>
+              </div>
+            </div>
+            <div className="skill-category">
+              <span className="category-label">Frameworks:</span>
+              <div className="skill-tags">
+                <span className="skill-tag">Bootstrap</span>
+                <span className="skill-tag">Express.JS</span>
+                <span className="skill-tag">Angular</span>
+              </div>
+            </div>
+            <div className="skill-category">
+              <span className="category-label">Databases:</span>
+              <div className="skill-tags">
+                <span className="skill-tag">MySQL</span>
+                <span className="skill-tag">MongoDB</span>
+              </div>
+            </div>
+            <div className="skill-category">
+              <span className="category-label">Tools:</span>
+              <div className="skill-tags">
+                <span className="skill-tag">Visual Studio Code</span>
+                <span className="skill-tag">Git</span>
+                <span className="skill-tag">GitHub</span>
+                <span className="skill-tag">NodeJS</span>
+                <span className="skill-tag">Ansible</span>
+              </div>
+            </div>
+            <div className="skill-category">
+              <span className="category-label">Others:</span>
+              <div className="skill-tags">
+                <span className="skill-tag">Data Structures & Algorithms</span>
+                <span className="skill-tag">ReactJS</span>
+              </div>
+            </div>
           </div>
           </div>
         </div>
@@ -112,6 +138,8 @@ const Resume = () => {
           </div>
         </div>
 
+        <div className="experience-divider"></div>
+
         <div className="data-box">
           <div className="terminal-section">
             <div className="exp-header">
@@ -142,6 +170,8 @@ const Resume = () => {
           </div>
           </div>
         </div>
+
+        <div className="experience-divider"></div>
 
         <div className="data-box">
           <div className="terminal-section">
