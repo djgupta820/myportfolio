@@ -7,67 +7,98 @@
         },
         {
             "name": "css3",
-            "proficiency": 7
+            "proficiency": 7,
+            "icon": "faCss3Alt"
         },
         {
             "name": "javascript",
-            "proficiency": 8
+            "proficiency": 8,
+            "icon": "faJs"
         },
         {
             "name": "typescript",
-            "proficiency": 8
+            "proficiency": 8,
+            "icon": "faCode"
         },
         {
             "name": "c/c++",
-            "proficiency": 8
-        },
-        {
-            "name": "java",
-            "proficiency": 7
+            "proficiency": 8,
+            "icon": "faFileCode"
         },
         {
             "name": "python",
-            "proficiency": 6
-        },
-        {
-            "name": "flask",
-            "proficiency": 7
-        },
-        {
-            "name": "django",
-            "proficiency": 8
+            "proficiency": 6,
+            "icon": "faPython"
         },
         {
             "name": "mysql",
-            "proficiency": 8
+            "proficiency": 8,
+            "icon": "faDatabase"
         },
         {
             "name": "react.js",
-            "proficiency": 8
+            "proficiency": 8,
+            "icon": "faReact"
         },
         {
             "name": "node.js",
-            "proficiency": 6
+            "proficiency": 6,
+            "icon": "faNodeJs"
         },
         {
             "name": "express.js",
-            "proficiency": 8
+            "proficiency": 8,
+            "icon": "faNode"
         },
         {
             "name": "mongodb",
-            "proficiency": 8
+            "proficiency": 8,
+            "icon": "faDatabase"
         },
         {
             "name": "angular.js",
-            "proficiency": 5
+            "proficiency": 5,
+            "icon": "faAngular"
         },
         {
             "name": "Data Structures & algorithms using C++",
-            "proficiency": 6
+            "proficiency": 6,
+            "icon": "faProjectDiagram"
         },
         {
             "name": "full stack web development",
-            "proficiency": 8
+            "proficiency": 8,
+            "icon": "faLaptopCode"
+        },
+        {
+            "name": ".Net",
+            "proficiency": 7,
+            "icon": "faCode"
+        },
+        {
+            "name": "ASP.NET MVC 5",
+            "proficiency": 7,
+            "icon": "faServer"
+        },
+        {
+            "name": "C#",
+            "proficiency": 7,
+            "icon": "faFileCode"
+        },
+        {
+            "name": "MS SQL Server",
+            "proficiency": 7,
+            "icon": "faDatabase"
+        },
+        {
+            "name": "Ansible",
+            "proficiency": 6,
+            "icon": "faGears"
+        },
+        {
+            "name": "Git",
+            "proficiency": 8,
+            "icon": "faGitAlt"
         }
     ]
 }
