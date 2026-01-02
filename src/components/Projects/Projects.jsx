@@ -11,14 +11,19 @@ const Projects = () => {
   return (
     <div className="container">
       <h1 style={{ textAlign: "center" }}>Projects</h1>
-      <div className="projects">
-        {data ? (
-          data.map((item, idx) => {
-            return <Project data={item} key={idx} />;
-          })
-        ) : (
-          <p>No Projects yet</p>
-        )}
+      <div className="projects-terminal">
+        <div className="projects-content-wrapper">
+          <div className="command-header">$ ls -la ~/projects/ --recursive</div>
+          <div className="projects">
+            {data ? (
+              data.map((item, idx) => {
+                return <Project data={item} key={idx} />;
+              })
+            ) : (
+              <p>No Projects yet</p>
+            )}
+          </div>
+        </div>
       </div>
     </div>
   );

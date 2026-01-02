@@ -7,6 +7,7 @@
       "liveLink": "",
       "link": "",
       "videoLink": "",
+      "image": "https://via.placeholder.com/400x200/1e1b3d/10b981?text=Full+Stack+App",
       "tech": ["Angular 13", "CSS", "NodeJS", "ExpressJS", "MySQL", "Bootstrap"]
     },
     {
@@ -16,6 +17,7 @@
       "liveLink": "",
       "link": "https://github.com/djgupta820/online-examination",
       "videoLink": "",
+      "image": "https://via.placeholder.com/400x200/1e1b3d/0a8ad4?text=Examination+System",
       "tech": ["Html", "CSS", "JavaScript", "PHP", "MySQL", "Bootstrap"]
     },
     {
@@ -25,6 +27,7 @@
       "liveLink": "",
       "link": "https://github.com/djgupta820/foodies",
       "videoLink": "",
+      "image": "https://via.placeholder.com/400x200/1e1b3d/10b981?text=Foodies+App",
       "tech": ["NodeJS", "ExpressJS", "MongoDB", "EJS Templating Engine"]
     },
     {
@@ -34,6 +37,7 @@
       "liveLink": "https://djgupta.netlify.app/",
       "link": "https://github.com/djgupta820/myportfolio",
       "videoLink": "",
+      "image": "https://via.placeholder.com/400x200/1e1b3d/0a8ad4?text=Portfolio",
       "tech": ["Html", "CSS", "Javascript", "JSON", "ReactJS"]
     },
     {
@@ -43,6 +47,7 @@
       "liveLink": "",
       "link": "https://github.com/djgupta820/markdown-blog",
       "videoLink": "blogz.mp4",
+      "image": "https://via.placeholder.com/400x200/1e1b3d/10b981?text=Markdown+Blog",
       "tech": ["NodeJS", "ExpressJS", "MongoDB", "ReactJS"]
     },
     {
@@ -52,6 +57,7 @@
       "liveLink": "djgupta820.github.io/coffee",
       "link": "https://github.com/djgupta820/coffee",
       "videoLink": "coffee.mp4",
+      "image": "https://via.placeholder.com/400x200/1e1b3d/0a8ad4?text=Coffee+Website",
       "tech": ["Html", "CSS", "JavaScript"]
     },
     {
@@ -61,6 +67,7 @@
       "liveLink": "https://djgupta820.github.io/weather-app/",
       "link": "https://github.com/djgupta820/weather-app",
       "videoLink": "weather-app.mp4",
+      "image": "https://via.placeholder.com/400x200/1e1b3d/10b981?text=Weather+App",
       "tech": ["Html", "CSS", "JavaScript"]
     },
     {
@@ -70,6 +77,7 @@
       "liveLink": "https://djgupta820.github.io/Tic-Tac-Toe/",
       "link": "https://github.com/djgupta820/Tic-Tac-Toe",
       "videoLink": "tictaktoe.mp4",
+      "image": "https://via.placeholder.com/400x200/1e1b3d/0a8ad4?text=Tic-Tac-Toe",
       "tech": ["Html", "CSS", "JavaScript"]
     },
     {
@@ -79,6 +87,7 @@
       "liveLink": "",
       "link": "https://github.com/djgupta820/myblogs",
       "videoLink": "",
+      "image": "https://via.placeholder.com/400x200/1e1b3d/10b981?text=Blog+Site",
       "tech": [
         "Python - Flask",
         "Html",

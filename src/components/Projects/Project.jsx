@@ -4,45 +4,45 @@ import { Link } from "react-router-dom";
 const Project = (props) => {
   return (
     <div className="project">
-      <h2>{props.data.title}</h2>
-      <p>{props.data.desc}</p>
-      {props.data.liveAt ? (
-        <p style={{ color: "green" }}>
-          <b>
-            This project is live at{" "}
+      <div className="project-content">
+        <h2>{props.data.title}</h2>
+        <p>{props.data.desc}</p>
+        
+        {props.data.tech && props.data.tech.length > 0 && (
+          <div className="tech-badges">
+            {props.data.tech.map((technology, idx) => (
+              <span className="tech-badge" key={idx}>{technology}</span>
+            ))}
+          </div>
+        )}
+
+        {props.data.liveAt ? (
+          <p className="project-status live">
+            <span className="status-icon">●</span> Live at{" "}
             <a
               href={props.data.liveLink}
               target="_blank"
-              style={{ textDecoration: "none", color: "skyblue" }}
+              rel="noopener noreferrer"
             >
               {props.data.liveAt}
             </a>
-          </b>
-        </p>
-      ) : (
-        <p style={{ color: "red" }}>
-          <b>This project is not live.</b>
-        </p>
-      )}
-      {props.data.videoLink ? (
-        <p>
-          Watch the{" "}
-          <Link
-            to={`/video/${props.data.videoLink}`}
-            style={{ color: "skyblue" }}
-          >
-            Video
-          </Link>
-        </p>
-      ) : (
-        <p style={{ textDecoration: "underline", color: "red" }}>
-          Video is not uploaded for this project :(
-        </p>
-      )}
+          </p>
+        ) : (
+          <p className="project-status not-live">
+            <span className="status-icon">●</span> Not deployed
+          </p>
+        )}
 
-      <a href={props.data.link} className="p-btn">
-        Project Link
-      </a>
+        {props.data.videoLink && (
+          <Link to={`/video/${props.data.videoLink}`} className="video-link">
+            📹 Watch Demo
+          </Link>
+        )}
+
+        <a href={props.data.link} className="p-btn" target="_blank" rel="noopener noreferrer">
+          View on GitHub →
+        </a>
+      </div>
     </div>
   );
 };
