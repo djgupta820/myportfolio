@@ -3,6 +3,8 @@ import { ReactTyped } from "react-typed";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5, faCss3Alt, faJs, faPython, faReact, faNode, faAws } from "@fortawesome/free-brands-svg-icons";
+import { faDatabase, faTerminal, faCode } from "@fortawesome/free-solid-svg-icons";
 
 const NewHome = () => {
 
@@ -12,6 +14,40 @@ const NewHome = () => {
 
   return (
     <div className="newhome">
+      <div className="gradient-blob"></div>
+      
+      {/* Floating Tech Icons */}
+      <div className="floating-tech floating-tech-1">
+        <FontAwesomeIcon icon={faHtml5} />
+      </div>
+      <div className="floating-tech floating-tech-2">
+        <FontAwesomeIcon icon={faCss3Alt} />
+      </div>
+      <div className="floating-tech floating-tech-3">
+        <FontAwesomeIcon icon={faJs} />
+      </div>
+      <div className="floating-tech floating-tech-4">
+        <FontAwesomeIcon icon={faReact} />
+      </div>
+      <div className="floating-tech floating-tech-5">
+        <FontAwesomeIcon icon={faNode} />
+      </div>
+      <div className="floating-tech floating-tech-6">
+        <FontAwesomeIcon icon={faPython} />
+      </div>
+      <div className="floating-tech floating-tech-7">
+        <FontAwesomeIcon icon={faDatabase} />
+      </div>
+      <div className="floating-tech floating-tech-8">
+        <FontAwesomeIcon icon={faAws} />
+      </div>
+      <div className="floating-tech floating-tech-9" title="Ansible">
+        <FontAwesomeIcon icon={faCode} />
+      </div>
+      <div className="floating-tech floating-tech-10" title="PowerShell">
+        <FontAwesomeIcon icon={faTerminal} />
+      </div>
+      
       <div className="img">
         <img src="/dheeraj.png" alt="profile-image" />
       </div>
