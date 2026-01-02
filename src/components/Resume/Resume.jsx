@@ -5,7 +5,9 @@ const Resume = () => {
   return (
     <div className="container">
       <h1 style={{ textAlign: "center" }}>Resume</h1>
-      <div className="resume">
+      <div className="resume-terminal">
+        <div className="resume-content-wrapper">
+          <div className="resume">
         <div className="top">
           <div className="top-left">
             <div className="name">Dheeraj Gupta</div>
@@ -41,7 +43,8 @@ const Resume = () => {
         </div>
 
         <div className="data-box">
-          <h1>Objective</h1>
+          <h2>Objective</h2>
+          <div className="terminal-section">
           <p>
             A dedicated and results-driven Full Stack Developer with a passion
             for creating dynamic and efficient web applications. Seeking to
@@ -49,10 +52,12 @@ const Resume = () => {
             forward-thinking organization, driving growth and delivering
             impactful solutions.
           </p>
+          </div>
         </div>
 
         <div className="data-box">
-          <h1>Technical Skills</h1>
+          <h2>Skills</h2>
+          <div className="terminal-section">
           <div className="rskills">
             <p>
               Languages:{" "}
@@ -72,18 +77,84 @@ const Resume = () => {
               <span>Data Structures and Algorithms using C++, ReactJS</span>
             </p>
           </div>
+          </div>
         </div>
 
         <div className="data-box">
-          <h1>Experience</h1>
-          <div className="top">
-            <h3>Web Developer</h3>
-            <p>Hybrid-Bangalore</p>
+          <h2>Experience</h2>
+          <div className="terminal-section">
+            <div className="exp-header">
+              <div className="exp-left">
+                <h3>Automation Engineer</h3>
+                <p><i>Wipro Ltd.</i></p>
+              </div>
+              <div className="exp-right">
+                <p>Hybrid – Bengaluru, Karnataka, India</p>
+                <p>Nov 2025 – Present</p>
+              </div>
+            </div>
+          <div className="trainings">
+            <ul>
+              <li>
+                Designed, developed, and deployed automation scripts.
+              </li>
+              <li>
+                Automated manual workflows across systems.
+              </li>
+              <li>
+                Implemented scheduled jobs and monitoring scripts to ensure 24×7 system reliability and error detection.
+              </li>
+              <li>
+                Collaborated with cross-functional teams to identify repetitive tasks and reduce manual workload by automating key business processes.
+              </li>
+            </ul>
           </div>
-          <div className="top">
-            <i>Wipro Ltd.</i>
-            <p>July 2022 - Present</p>
           </div>
+        </div>
+
+        <div className="data-box">
+          <div className="terminal-section">
+            <div className="exp-header">
+              <div className="exp-left">
+                <h3>.NET Full Stack Developer</h3>
+                <p><i>Wipro Ltd.</i></p>
+              </div>
+              <div className="exp-right">
+                <p>Hybrid – Bangalore</p>
+                <p>March 2024 – Nov 2025</p>
+              </div>
+            </div>
+          <div className="trainings">
+            <ul>
+              <li>
+                Designed, developed, and maintained scalable web applications using C#, .NET MVC 5, MS SQL Server, and front-end technologies (HTML, CSS, JavaScript, jQuery, Angular).
+              </li>
+              <li>
+                Engaged in continuous development, bug fixing, and feature enhancements, ensuring high availability and reliability of web applications.
+              </li>
+              <li>
+                Implemented robust back-end logic, REST APIs, and optimized database queries to improve performance and reduce response time.
+              </li>
+              <li>
+                Collaborating with teams to enhance software scalability, security, and maintainability.
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+
+        <div className="data-box">
+          <div className="terminal-section">
+            <div className="exp-header">
+              <div className="exp-left">
+                <h3>Web Developer</h3>
+                <p><i>Wipro Ltd.</i></p>
+              </div>
+              <div className="exp-right">
+                <p>Hybrid-Bangalore</p>
+                <p>July 2022 - March 2024</p>
+              </div>
+            </div>
           <div className="trainings">
             <ul>
               <li>
@@ -110,20 +181,22 @@ const Resume = () => {
               </li>
             </ul>
           </div>
+          </div>
         </div>
 
         <div className="data-box">
-          <h1>Education</h1>
-          <div className="top">
-            <p>Guru Gobind Singh Indraprastha University</p>
-            <p>Delhi</p>
-          </div>
-          <div className="top">
-            <p>
-              <i>Bachelor of Computer Application</i>
-            </p>
-            <p>Aug 2019 – July 2022</p>
-          </div>
+          <h2>Education</h2>
+          <div className="terminal-section">
+            <div className="exp-header">
+              <div className="exp-left">
+                <h3>Bachelor of Computer Application</h3>
+                <p><i>Guru Gobind Singh Indraprastha University</i></p>
+              </div>
+              <div className="exp-right">
+                <p>Delhi</p>
+                <p>Aug 2019 – July 2022</p>
+              </div>
+            </div>
           <div style={{marginLeft: "1.2em", marginTop:"1em"}}>
             <ul>
               <li>
@@ -139,18 +212,22 @@ const Resume = () => {
               </li>
             </ul>
           </div>
+          </div>
         </div>
 
         <div className="data-box">
-          <h1>Coding Profile</h1>
+          <h2>Coding Profile</h2>
+          <div className="terminal-section">
           <p>
             Solved 300+ coding problems on Leetcode, focusing on advanced data
             structures and algorithms.
           </p>
+          </div>
         </div>
 
         <div className="data-box">
-          <h1>Projects</h1>
+          <h2>Projects</h2>
+          <div className="terminal-section">
           <div className="rprojects">
             <div className="rproject">
               <h4>
@@ -245,10 +322,23 @@ const Resume = () => {
               </div>
             </div>
           </div>
+          </div>
         </div>
 
         <div className="data-box">
-          <h1>Certifications</h1>
+          <h2>Certifications</h2>
+          <div className="terminal-section">
+          <p>
+            <a
+              href="https://aw.certmetrics.com/amazon/public/verification.aspx"
+              target="_blank"
+            >
+              AWS Certified Developer - Associate
+            </a>{" "}
+            <span>
+              <i>Certificate ID: ac2ed930a76e4ef992098edfe79f4e3e</i>
+            </span>
+          </p>
           <p>
             <a
               href="https://aw.certmetrics.com/amazon/public/verification.aspx"
@@ -260,7 +350,9 @@ const Resume = () => {
               <i>Certificate ID: EGPER7026MRQQCS9</i>
             </span>
           </p>
-          <p>Web Development in Django</p>
+          </div>
+        </div>
+      </div>
         </div>
       </div>
       <h3 className="warn">
