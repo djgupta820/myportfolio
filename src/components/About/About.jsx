@@ -4,33 +4,31 @@ const About = () => {
   return (
     <div className="container">
       <h1 style={{ textAlign: "center" }}>About Me :)</h1>
-      <div className="about">
-        <div className="img">
-          <img src="/dheeraj.png" alt="image" />
-        </div>
-        <div className="data">
-          <h1>Automation Engineer & Full Stack Developer</h1>
-          <p>
-            Results-driven software engineer with extensive experience in full-stack development, cloud architecture, and automation engineering. 
-            Specialized in designing and implementing scalable enterprise applications using modern technologies including .NET Core, MEAN/MERN stack, 
-            and AWS cloud services. Currently focused on automating workflows using Python, PowerShell, and Ansible to streamline business processes, 
-            optimize CI/CD pipelines, and enhance operational efficiency.
-          </p>
-          <p>
-            <b>Currently serving as an Automation Engineer, architecting and implementing workflow automation solutions that drive digital transformation and operational excellence.</b>
-          </p>
-          <p>Core Competencies:</p>
-          <ul>
-            <li>Advanced proficiency in full-stack development with MEAN/MERN stack, .NET Core, Java Spring Boot, and modern JavaScript frameworks</li>
-            <li>Expertise in cloud architecture and serverless computing with AWS (Developer Associate certified)</li>
-            <li>Strong foundation in data structures, algorithms, and system design principles</li>
-            <li>Proven ability to deliver responsive, cross-browser compatible solutions with exceptional user experience</li>
-            <li>Experienced in agile methodologies, collaborative development, and DevOps best practices</li>
-          </ul>
-          <p>
-            Committed to continuous learning and staying at the forefront of emerging technologies. Currently pursuing M.Tech from 
-            Birla Institute of Technology, Pilani, with a focus on advanced software engineering and system architecture.
-          </p>
+      <div className="about-terminal">
+        <div className="about-content-wrapper">
+          <div className="about">
+            <div className="img">
+              <img src="/dheeraj.png" alt="image" />
+            </div>
+            <div className="data">
+              <div className="command-header">$ cat profile.json</div>
+              <div className="terminal-output">
+                <p className="output-line">{'{'}</p>
+                <p className="output-line indent-1">"role": "Automation Engineer & Full Stack Developer",</p>
+                <p className="output-line indent-1">"summary": "Results-driven software engineer with extensive experience in full-stack development, cloud architecture, and automation engineering. Specialized in designing and implementing scalable enterprise applications using modern technologies including .NET Core, MEAN/MERN stack, and AWS cloud services. Currently focused on automating workflows using Python, PowerShell, and Ansible to streamline business processes, optimize CI/CD pipelines, and enhance operational efficiency.",</p>
+                <p className="output-line indent-1">"current_position": "Automation Engineer, architecting and implementing workflow automation solutions that drive digital transformation and operational excellence",</p>
+                <p className="output-line indent-1">"core_competencies": [</p>
+                <p className="output-line indent-2">"Advanced proficiency in full-stack development with MEAN/MERN stack, .NET Core, Java Spring Boot, and modern JavaScript frameworks",</p>
+                <p className="output-line indent-2">"Expertise in cloud architecture and serverless computing with AWS (Developer Associate certified)",</p>
+                <p className="output-line indent-2">"Strong foundation in data structures, algorithms, and system design principles",</p>
+                <p className="output-line indent-2">"Proven ability to deliver responsive, cross-browser compatible solutions with exceptional user experience",</p>
+                <p className="output-line indent-2">"Experienced in agile methodologies, collaborative development, and DevOps best practices"</p>
+                <p className="output-line indent-1">],</p>
+                <p className="output-line indent-1">"education": "Currently pursuing M.Tech from Birla Institute of Technology, Pilani, with a focus on advanced software engineering and system architecture"</p>
+                <p className="output-line">{'}'}</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

@@ -227,18 +227,6 @@ body::before {
   letter-spacing: -0.5px;
   position: relative;
 }
-
-.container > h1::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100px;
-  height: 3px;
-  background: linear-gradient(90deg, transparent, var(--sp-col), transparent);
-  border-radius: 2px;
-}
 .image {
   width: 100%;
   min-height: 92.1vh;
@@ -387,12 +375,51 @@ body::before {
   text-decoration: none;
   font-weight: bold;
 }
+.about-terminal {
+  width: 100%;
+  max-width: 1400px;
+  margin: var(--space-8) auto;
+  background: rgba(30, 27, 61, 0.3);
+  border: 1px solid rgba(10, 138, 212, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.about-terminal::before {
+  content: '';
+  display: block;
+  height: 35px;
+  background: linear-gradient(180deg, rgba(30, 27, 61, 0.8), rgba(30, 27, 61, 0.6));
+  border-bottom: 1px solid rgba(10, 138, 212, 0.3);
+}
+
+.about-terminal::after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ef4444;
+  box-shadow: 
+    20px 0 0 #f59e0b,
+    40px 0 0 #10b981;
+  z-index: 10;
+}
+
+.about-content-wrapper {
+  padding: var(--space-6);
+}
+
 .about {
   width: 100%;
   display: flex;
   gap: var(--space-8);
-  padding: var(--space-6) var(--space-4);
-  align-items: center;
+  padding: 0;
+  align-items: flex-start;
 }
 .ball{
   width: 100vw;
@@ -483,8 +510,50 @@ body::before {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--space-4);
-  padding: var(--space-2);
+  gap: 0;
+  padding: 0;
+}
+
+.command-header {
+  font-size: var(--font-lg);
+  font-weight: 600;
+  color: #10b981;
+  padding: var(--space-4);
+  margin: 0;
+  font-family: var(--font-mono);
+  letter-spacing: 0.5px;
+  background: rgba(16, 185, 129, 0.05);
+  border: 1px solid rgba(10, 138, 212, 0.2);
+  border-radius: 8px;
+  margin-bottom: var(--space-4);
+}
+
+.terminal-output {
+  font-family: var(--font-mono);
+  font-size: var(--font-sm);
+  line-height: 1.8;
+  color: var(--light);
+}
+
+.output-line {
+  margin: 0;
+  padding: var(--space-1) 0;
+  color: rgba(232, 232, 232, 0.85);
+}
+
+.output-line:first-child,
+.output-line:last-child {
+  color: #f59e0b;
+  font-weight: bold;
+}
+
+.indent-1 {
+  padding-left: var(--space-6);
+}
+
+.indent-2 {
+  padding-left: var(--space-12);
+  color: rgba(232, 232, 232, 0.75);
 }
 
 .about .data h1 {
@@ -1383,7 +1452,6 @@ textarea:focus {
   height: 35px;
   background: linear-gradient(180deg, rgba(30, 27, 61, 0.8), rgba(30, 27, 61, 0.6));
   border-bottom: 1px solid rgba(10, 138, 212, 0.3);
-  position: relative;
 }
 
 .education-section::after {
